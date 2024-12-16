@@ -1,4 +1,5 @@
 #!/bin/zsh
 
-sudo chown -R root:wheel /Library/Audio/Plug-Ins/HAL
-sudo killall -9 coreaudiod
+sudo chown -R root:wheel /Library/Audio/Plug-Ins/HAL/HOLOPHONIX\ Virtual\ Soundcard*ch.driver
+sleep 0.1
+sudo killall -9 coreaudiod || true
